@@ -1,0 +1,17 @@
+{
+	"bugs": {
+	"url": "https://github.com/EliasHasle/prng-xorshift64/issues"
+	},
+	"bundleDependencies": false,
+	"deprecated": false,
+	"description": "",
+	"homepage": "https://github.com/EliasHasle/prng-xorshift64#readme",
+	"main": "./PRNG.js",
+	"module": "./PRNG.module.js",
+	"name": "prng-xorshift64",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EliasHasle/prng-xorshift64.git"
+	},
+	"version": "0.0.1"
+}
