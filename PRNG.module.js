@@ -53,7 +53,7 @@ Object.assign(PRNG.prototype, {
 	rand: function() {
 		this.xorshift64();
 		//Generate float in [0,1) from middle 52 bits (ignoring sign bit)
-		return (this.state[0]&0x3FFFFFF)/0x4000000.0 + (this.state[1]>>6)/0x10000000000000.0;
+		return (this.state[0]&0x3FFFFFF)/(0x4000000+0.) + (this.state[1]>>6)/(0x10000000000000+0.);
 	}
 });
 
